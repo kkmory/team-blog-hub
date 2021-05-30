@@ -1,25 +1,21 @@
 export const config = {
   siteMeta: {
-    title: "Team Blog Hub",
-    teamName: "catnose Inc.",
-    description: "RSS based blog starter kit for teams.",
+    title: "kkmory.dev",
+    teamName: "Keisuke Mori - kkmory",
+    description: "ゆるくふわっと書いています",
   },
   siteRoot:
     process.env.NODE_ENV === "production"
-      ? "https://team-blog-hub.vercel.app"
+      ? "https://keisuke.vercel.app"
       : "http://localhost:3000",
   headerLinks: [
     {
-      title: "About",
-      href: "/about",
+      title: "My Profile",
+      href: "/members/Keisuke",
     },
     {
-      title: "Company",
-      href: "https://zenn.dev/catnose99/articles/cb72a73368a547756862",
-    },
-    {
-      title: "GitHub",
-      href: "https://github.com/catnose99/team-blog-hub",
+      title: "Twitter",
+      href: "https://twitter.com/kkmory_",
     },
   ],
 };
