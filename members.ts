@@ -9,10 +9,11 @@ export const members: Member[] = [
         sources: [
             "https://zenn.dev/kkmory/feed",
             "https://techmory.hateblo.jp/rss",
+            "https://speakerdeck.com/kkmory.atom"
         ],
-        includeUrlRegex: "zenn.dev|hateblo.jp",
+        includeUrlRegex: "zenn.dev|hateblo.jp|speakerdeck.com",
         twitterUsername: "kkmory_",
         githubUsername: "kkmory",
-        websiteUrl: "https://smartcat.dev/",
+        websiteUrl: "https://keisuke.vercel.app/",
     },
 ];
