@@ -19,6 +19,7 @@ const Page: NextPage<Props> = (props) => {
   const {
     name,
     bio,
+    role,
     avatarSrc,
     twitterUsername,
     githubUsername,
@@ -40,7 +41,8 @@ const Page: NextPage<Props> = (props) => {
                 className="member-header__avatar-img"
               />
             </div>
-            <h1 className="member-header__name">{name}</h1>
+            <h1 className="member-header__name">Keisuke Mory</h1>
+            <p className="member-header__role">{role}</p>
             <p className="member-header__bio">{bio}</p>
             <div className="member-header__links">
               {twitterUsername && (
@@ -82,9 +84,9 @@ const Page: NextPage<Props> = (props) => {
             </div>
           </header>
 
-          <div className="member-posts-container">
-            <PostList items={props.postItems} />
-          </div>
+          {/*<div className="member-posts-container">*/}
+          {/*  <PostList items={props.postItems} />*/}
+          {/*</div>*/}
         </ContentWrapper>
       </section>
     </>

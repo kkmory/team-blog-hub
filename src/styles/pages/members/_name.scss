@@ -3,7 +3,7 @@
   text-align: center;
 }
 .member-header__avatar-img {
-  border-radius: 18px;
+  border-radius: 50%;
 }
 .member-header__name {
   margin-top: 0.5rem;
@@ -15,6 +15,13 @@
   font-size: 0.9rem;
   max-width: 500px;
   opacity: 0.8;
+}
+.member-header__role {
+  display: inline-block;
+  width: 100%;
+  font-size: 0.8rem;
+  max-width: 500px;
+  opacity: 0.6;
 }
 .member-posts-container {
   padding-top: 1rem;

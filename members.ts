@@ -3,7 +3,7 @@ import {Member} from "@src/types";
 export const members: Member[] = [
     {
         name: "Keisuke",
-        role: "Software Engineer",
+        role: "Software Engineer / CyberAgent, Inc.",
         bio: "邦ロックと飛行機を愛する、ゆるふわソフトウェアエンジニア。",
         avatarSrc: "/avatars/keisuke.jpg",
         sources: [
